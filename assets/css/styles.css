@@ -637,7 +637,7 @@ table.table-style2 .trbg {
 
 h1.main-heading {
     font-family: 'poppins-semibold';
-    font-size: 120px;
+    font-size: 107px;
     text-shadow: 15px 0px 47px rgb(0 0 0);
     color: #FFFFFF;
     letter-spacing: -5px;
@@ -928,6 +928,20 @@ img.aboutBookCover{
   }
   .table.table-ar-32 tr:nth-child(even) {
     background-color: #d0d5e8;
+}
+.table-dr-11{
+
+}
+.table-dr-11 td, .table-dr-11 th{
+    border-color: #000000;
+    padding: 0.2rem;
+
+}
+.table.table-dr-11 thead th {
+    vertical-align: top;
+    border-bottom: 1px solid #000000;
+    background-color: #90ee90;
+    font-family: 'poppins-semibold';
 }
 
 .table-dr-22{
