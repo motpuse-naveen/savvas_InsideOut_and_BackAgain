@@ -321,7 +321,12 @@ a:hover {
     bottom: 0;
     width: 165px;
 }
-
+.fonta{
+    font-size: 18px;
+}
+.fonte{
+    font-size: 19px;
+}
 .bold {
     font-family: "poppins-bold";
 }
@@ -624,23 +629,30 @@ table.table-style2 .trbg {
 }
 
 .award-circle-wrap {
-    padding-left: 30px;
-    padding-top: 45px;
+    padding-left: 65px;
+    padding-top: 38px;
 }
 
 .award-circle {
-    /*height: 180px;*/
-    width: 180px;
+    height: 167px;
+    width: 177px;
     background-color: #EBC979;
     border-radius: 50%;
 }
 
 .award-circle .award-text {
-    padding: 34px 15px;
+    padding: 24px 15px;
     font-family: 'poppins-semibold';
     font-size: 20px;
     text-align: center;
-    line-height: 22px;
+    line-height: 24px;
+    padding-bottom: 0px;
+}
+.award-circle .award-text1 {
+    font-family: 'poppins-semibold';
+    font-size: 20px;
+    text-align: center;
+    line-height: 24px;
 }
 
 .side-image-bar {
@@ -652,18 +664,19 @@ table.table-style2 .trbg {
 
 .rikshaw-girl-text {
     position: relative;
-    padding-top: 90px;
-    padding-left: 75px;
+    padding-top: 147px;
+    padding-left: 227px;
     z-index: 12;
+
 }
 
 h1.main-heading {
     font-family: 'poppins-semibold';
-    font-size: 107px;
+    font-size: 110px;
     text-shadow: 15px 0px 47px rgb(0 0 0);
     color: #FFFFFF;
-    letter-spacing: -5px;
-    line-height: 170px;
+    letter-spacing: -4px;
+    line-height: 125px;
     margin-right: 72px;
 }
 
@@ -698,7 +711,7 @@ h1.main-heading {
 .moreInfo-wrapper {
     float: right;
     width: 370px;
-    margin-top: -136px;
+    margin-top: -210px;
 }
 .moreInfo {
     position: absolute;
@@ -765,7 +778,7 @@ blockquote {
 
 .orbitdiv-button{
     position: absolute;
-    top: -280px;
+    top: -373px;
     right: -80px;
     width: 234px;
     height: 234px;
