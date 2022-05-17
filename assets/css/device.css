@@ -19,11 +19,11 @@
     }
     h1.main-heading {
         font-family: 'poppins-semibold';
-        font-size: 160px;
+        font-size: 120px;
         text-shadow: 15px 0px 47px rgb(0 0 0);
         color: #FFFFFF;
         letter-spacing: -5px;
-        line-height: 170px;
+        line-height: 126px;
         margin-right: auto;
     }
     .popup-content-col .col-md-12 .popup-left-title {
@@ -44,7 +44,7 @@
     .author-container .author-wrap {
         float: left;
         padding: 20px;
-        padding-top: 145px;
+        padding-top: 0px;
     }
     .rikshaw-girl-bg {
         background-size: 680px;
@@ -53,18 +53,18 @@
     }
     .rikshaw-girl-text {
         position: relative;
-        padding-top: 60px;
+        padding-top: 34px;
         padding-left: 0px;
         max-width: 740px;
         margin: 0 auto;
     }
     h1.main-heading {
         font-family: 'poppins-semibold';
-        font-size: 160px;
+        font-size: 110px;
         text-shadow: 15px 0px 47px rgb(0 0 0);
         color: #FFFFFF;
         letter-spacing: -5px;
-        line-height: 170px;
+        line-height: 114px;
         margin-right: auto;
     }
     .moreInfo-wrapper {
@@ -73,11 +73,13 @@
         margin-top: 0px;
     }
     .moreInfo-container {
-        margin-top: 100px;
+        margin-top: 33px;
     }
     .award-circle-wrap {
-        padding-left: 100px;
-        padding-top: 160px
+        padding-left: 177px;
+        padding-top: 00px;
+        /* margin-top: -76px; */
+
     }
     .author-wrap span.image {
         float: left;
@@ -101,6 +103,18 @@
     }
     .moreInfo{
         top: 100px;
+    }
+      /*NM: 11-05-2022*/
+      .moreInfo{
+        top: 191px;
+    }
+    /*NM: 11-05-2022*/
+    .moreInfo-additionaltxt {
+        padding: 40px 28px;
+    }
+    /*NM: 11-05-2022*/
+    .bg-image-opacity{
+        display: block;
     }
 }
 
@@ -155,6 +169,18 @@
     .orbit1, .orbit2, .orbit3{display: none;}
     .left-side-bar{display: none;}
     .popup-concave-col{display: none;}
+      /*NM: 11-05-2022*/
+      .author-container.desktop{
+        display: none;
+    }
+    /*NM: 11-05-2022*/
+    .author-container.mobile{
+        display: block;
+    }
+    /*NM: 11-05-2022*/
+    .author-container.mobile .author-wrap {
+        padding-top: 99px;
+    }
     .popup-content-col{
         flex: 0 0 100%;
         max-width: 100%;
@@ -310,14 +336,16 @@
 }
 @media (max-width: 430px) {
     h1.main-heading{
-        font-size: 80px;
+        font-size: 67px;
         line-height: 80px;
+        margin-top: -36px;
     }
     .rikshaw-girl-text {
         padding-bottom: 0%;
     }
     .award-circle-wrap {
-        top: 26%;
+        top: 28%;
+        left: 52%;
     }
     .author-container .text{
         font-size: 20px;
